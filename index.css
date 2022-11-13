@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(133, 37, 37);
+}
+
+.Heading {
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+    font-family: 'Xanh Mono', monospace;
+
+}
+
+.button {
+    font-family: 'Xanh Mono', monospace;
+    font-size: 26px;
+}
+
+.row {
+    padding: 2px 20px 0px 16px; 
+    margin: 10px 23px;
+    margin-left: 57px;
+    font-family: 'Xanh Mono', monospace}
+
+.Container {
+    position: relative;
+}
+
+.Content {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+
+
+button {
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    border: 4px solid green;
+    cursor: pointer;
+
+}
+
+.input {
+    height: 50px;
+    font-size: 25px;
+    border-radius: 13px;
+}
